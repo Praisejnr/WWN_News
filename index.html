@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WWN News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <div onclick="toggleBtn()" class="hamburger">
+      <span id="bar"></span>
+      <span id="bar"></span>
+      <span id="bar"></span>
+    </div>
+
+    <ul id="lists">
+      
+      <div class="search-container">
+      <input id="search" type="text" placeholder="Search news, topics and more"> <img src="search.png" alt="">
+      </div>
+      
+      <div class="modes">
+        <h4 id="texter" >Dark Mode</h4>
+        <img id="switcher"  onclick="darkMode()" src="switch.png" alt="">
+      </div>
+      
+      <a href="#">
+        <li>Home</li>
+      </a>
+      <a href="https://www.bbc.com/news">
+        <li>News</li>
+      </a>
+      <a href="https://www.bbc.com/sport">
+        <li>Sports</li>
+      </a>
+      <a href="https://www.bbc.com/business">
+        <li>Business</li>
+      </a>
+      <a href="https://www.bbc.com/innovation">
+        <li>Innovation</li>
+      </a>
+      <a href=" https://www.bbc.com/culture">
+        <li>Culture</li>
+      </a>
+      <a href="https://www.bbc.com/travel">
+        <li>Travel</li>
+      </a>
+      <a href="https://www.bbc.com/earth">
+        <li>Earth</li>
+      </a>
+      <a href=" https://www.bbc.com/video">
+        <li>Video</li>
+      </a>
+      <a href="https://www.bbc.com/live">
+        <li>Live</li>
+      </a>
+      <a href="https://www.bbc.com/audio">
+        <li>Audio</li>
+      </a>
+      <a href="https://www.bbc.com/weather">
+        <li>Weather</li>
+      </a>
+    </ul>
+    
+
+    <div class="name-title">
+      <a href="#">W</a>
+      <a href="#">W</a>
+      <a href="#">N</a>
+    </div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">More</a>
+    </nav>
+
+  </header>
+
+  <main id="news"></main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
